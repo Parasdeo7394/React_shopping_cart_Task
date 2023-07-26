@@ -36,3 +36,24 @@
     transform: rotate(360deg);
   }
 }
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.shopping-card {
+  height: 60px;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #eceff0;
+  padding: 20px 30px;
+}
+
+.product-item {
+  padding: 20px;
+}
+
+.product-item img{
+  height: 300px;
+}
